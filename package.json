@@ -1,10 +1,13 @@
 {
   "name": "init-editorconfig-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Complex generator of .editorconfig 🐭 CLI",
   "main": "cli.js",
   "scripts": {
     "test": "ci-success travis --success"
+  },
+  "bin": {
+    "init-editorconfig": "cli.js"
   },
   "repository": {
     "type": "git",
