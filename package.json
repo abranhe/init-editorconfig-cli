@@ -1,0 +1,47 @@
+{
+  "name": "init-editorconfig-cli",
+  "version": "1.0.0",
+  "description": "Complex generator of .editorconfig 🐭 CLI",
+  "main": "cli.js",
+  "scripts": {
+    "test": "ci-success travis --success"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abranhe/init-editorconfig-cli.git"
+  },
+  "keywords": [
+    "editorconfig",
+    "editor",
+    "init",
+    "initer",
+    "generator",
+    "builder",
+    "files",
+    "module",
+    "yarn",
+    "npm",
+    "cli"
+  ],
+  "files": [
+    "cli.js"
+  ],
+  "author": {
+    "name": "Carlos Abraham",
+    "email": "abraham@abranhe.com",
+    "web": "abranhe.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abranhe/init-editorconfig-cli/issues"
+  },
+  "homepage": "https://github.com/abranhe/init-editorconfig-cli#readme",
+  "devDependencies": {
+    "ci-success": "^2.0.0"
+  },
+  "dependencies": {
+    "@abranhe/feedback": "^1.1.0",
+    "init-editorconfig": "^2.0.0",
+    "meow": "^5.0.0"
+  }
+}

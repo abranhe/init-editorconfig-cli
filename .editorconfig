@@ -1,0 +1,10 @@
+# EditorConfig
+# https://EditorConfig.org
+#
+# Build with init-editorconfig
+# https://github.com/abranhe/init-editorconfig
+
+root = true[]
+
+
+indent_size = tab
